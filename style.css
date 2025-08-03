@@ -1,0 +1,77 @@
+/* พื้นหลังและฟอนต์ */
+body {
+  background-color: #000;
+  color: gold;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* กล่องเนื้อหา */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 1px solid gold;
+  border-radius: 10px;
+  background-color: #111;
+}
+
+/* ปุ่มและ input */
+input, button {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+}
+
+input {
+  width: 80%;
+  background-color: #222;
+  color: gold;
+  border: 1px solid gold;
+}
+
+button {
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd700;
+}
+
+/* ลิงก์แนะนำ */
+a#refLink {
+  display: inline-block;
+  color: gold;
+  margin-top: 5px;
+  text-decoration: underline;
+}
+
+/* หัวข้อย่อย */
+h3 {
+  color: #ffcc00;
+  margin-top: 30px;
+}
+
+/* ข้อความทั่วไป */
+p {
+  margin: 5px 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+}
